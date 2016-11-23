@@ -1,0 +1,14 @@
+message ProtoResult{
+    required string objectName = 1;
+    required string viewName = 2;
+    required int32 nPoints = 3;
+    required int32 nMatches = 4;
+    optional float x1 = 5;
+    optional float y1 = 6;
+    optional float x2 = 7;
+    optional float y2 = 8;
+    optional float x3 = 9;
+    optional float y3 = 10;
+    optional float x4 = 11;
+    optional float y4 = 12;
+}
